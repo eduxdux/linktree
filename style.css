@@ -13,7 +13,8 @@ body {
     padding: 0;
     min-height: 100vh;
     font-family: var(--font);
-    background: radial-gradient(ellipse at bottom, var(--bgColor) 0%, var(--bgColor2) 100%);
+    background: #A15EDD;
+   /* background: radial-gradient(ellipse at bottom, var(--bgColor) 0%, var(--bgColor2) 100%);*/
     /* background-image: url('https://bit.ly/3nFVqJh'); */
     opacity: 0;
     animation: 1s ease-out var(--delay) 1 transitionAnimation; /* duration/timing-function/delay/iterations/name */
@@ -51,6 +52,7 @@ body {
     display: block;
     margin: 27px auto;
 }
+
 
 .link {
     position: relative;
